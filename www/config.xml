@@ -4,22 +4,16 @@
   <description>No talking, no dating !</description>
   <author email="justtalkapp@gmail.com" href="http://www.justtalk.space">Just Talk Team</author>
   <content src="index.html"/>
-  <access origin="*"/>
   <access origin="justtalk.space"/>
-  <preference name="DisallowOverscroll" value="true" />
-  <preference name="android-minSdkVersion" value="16"/>
-  <preference name="orientation" value="portrait"/>
-  <preference name="SplashScreen" value="screen" />
-  <preference name="SplashScreenDelay" value="10000" />
   <plugin name="cordova-plugin-device" spec="~1.1.2"/>
   <plugin name="cordova-plugin-console" spec="~1.0.3"/>
   <plugin name="cordova-plugin-whitelist" spec="~1.2.2"/>
   <plugin name="cordova-plugin-network-information" spec="~1.2.1"/>
   <plugin name="cordova-plugin-dialogs" spec="~1.2.1"/>
-  <plugin name="cordova-plugin-geolocation" source="npm" spec="~2.2.0"/>
-  <plugin name="cordova-plugin-inappbrowser" source="npm" spec="~1.4.0"/>
-  <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.1"/>
-  <plugin name="cordova-plugin-splashscreen" source="npm" spec="~3.2.2"/>
+  <plugin name="cordova-plugin-geolocation" spec="~2.2.0"/>
+  <plugin name="cordova-plugin-inappbrowser" spec="~1.4.0"/>
+  <plugin name="cordova-plugin-vibration" spec="~2.1.1"/>
+  <plugin name="cordova-plugin-splashscreen" spec="~3.2.2"/>
   <plugin name="ionic-plugin-keyboard" spec="~2.2.1"/>
   <icon src="icon.png"/>
   <platform name="android">
@@ -59,4 +53,9 @@
     <splash height="960" platform="ios" src="res/screen/ios/Default@2x~iphone.png" width="640"/>
     <splash height="480" platform="ios" src="res/screen/ios/Default~iphone.png" width="320"/>
   </platform>
+  <preference name="DisallowOverscroll" value="true" />
+  <preference name="android-minSdkVersion" value="16"/>
+  <preference name="orientation" value="portrait"/>
+  <preference name="SplashScreen" value="splash" />
+  <preference name="SplashScreenDelay" value="10000" />
 </widget>
